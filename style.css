@@ -1,0 +1,228 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffffff, #333333);
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background: #222;
+    padding: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-weight: 1000;
+    margin: 0;
+    color: #de8731;
+    text-shadow: 1px 1px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-shadow: 2px 2px #414040;
+}
+
+h3 {
+    color: #222;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f07878;
+    text-decoration: double;
+}
+
+/* Resume Button */
+.btn {
+    display: inline-block;
+    padding: 4px 10px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(59, 54, 54);
+    background: linear-gradient(135deg, #fffefe, #ffffff);
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover{
+    color: #ffffff;
+    background: linear-gradient(135deg, #d2d2d2, #d0d0d0);
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+
+/* About Section */
+#about {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#about h2 {
+    color: #f39c12;
+    font-size: 24px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+/* Education Section */
+#education {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#education h2 {
+    color: #f39c12;
+    font-size: 24px;
+}
+
+#education p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+/* Project Section */
+#projects {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#projects h2 {
+    color: #f39c12;
+    font-size: 24px;
+}
+
+#projects p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+/* Contact Section */
+#contact {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#contact h2 {
+    color: #f39c12;
+    font-size: 24px;
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.2);
+}
+
+/* footer  */
+
+.footcontainer h1{
+    color: black;
+    font-size: 35px;
+     text-align: center;
+    justify-content: center;
+}
+.footer{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer a{
+    height: 100px;
+    width: 100px;
+    background-color:#f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 110px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+.footer a i{
+    font-size: 30px;
+    transition: all 0.3s linear;
+
+}
+a:hover i{
+    transform: scale(1.4);
+    color: black;
+}
+#facebook{
+    color: blue ;
+}
+#twitter{
+    color: #0097e6;
+}
+#instagram{
+    color: #e84393;
+    }
+    #youtube{
+        color: #e84118;
+    }
+    #linkdin{
+        color: #0097e6;
+    }
